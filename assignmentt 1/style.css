@@ -1,0 +1,237 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: mainlt;
+	src: url(BrandonText-Light.otf);
+}
+
+@font-face{
+	font-family: mainft;
+	src: url(BrandonText-Regular.otf);
+}
+
+
+p{
+	font-family: mainft;
+}
+
+body{
+	font-family: mainft;
+}
+
+
+.nav-bar{
+	background: #2a2a2a;
+	box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 50%);
+	padding: 20px 0px;
+}
+
+.nav>li>a{
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 3px 8px !important;
+	font-family: mainft;
+	color: #d4d4d4;
+}
+
+.nav>li>a:focus, .nav>li>a:hover{
+	color: #fff;
+	background: none;
+}
+
+.navbar-brand{
+	float: left;
+	height: auto;
+    padding: 0px;
+    font-size: 0px;
+    line-height: 0px;
+}
+
+@media (min-width: 768px){
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+}
+
+.navbar{
+	margin: 0px;
+}
+
+
+.navbar-nav{
+	margin-top: 12px !important;
+}
+
+.banner-heading{
+	color: #fff;
+    font-family: mainlt;
+    font-size: 50px;
+    text-shadow: 1px 2px 2px #000;
+}
+
+.banner{
+	padding: 70px 0px;
+	background: url(img/ourServicesHeader.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.second-section{
+	padding: 70px 0px;
+}
+
+.second-section-heading{
+	margin: 0px;
+	font-family: mainlt;
+    font-size: 34px;
+    color: #0a465b;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.second-para-text{
+	color: #7f969e;
+    font-size: 18px;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 0;
+    line-height: 1.4;
+    height: 100%;
+}
+
+.second-para-text span{
+	color: #FFA500;
+}
+
+.services{
+	padding: 70px 0px;
+	background: #EDEff3;
+}
+
+
+
+.heading-box{
+	background: #107698;
+	padding: 25px 20px 25px;
+	min-height: 120px;
+}
+
+.heading-box h2{
+	color: #fff;
+	font-size: 30px;
+	margin: 0px;
+	font-weight: 100;
+	font-family: mainlt;
+	font-variant: small-caps;
+}
+
+.para-box{
+	padding: 20px 25px;
+	background: #fff;
+	color: #7f969e;
+	font-size: 16px;
+	box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+	margin: 0px;
+	min-height: 300px;
+}
+
+.para-box p{
+	font-family: mainlt;
+}
+
+.para-box span{
+	color: #FFA500;
+}
+
+.shadow-box{
+	background: #d1d1d0;
+	height: 5px;
+	box-shadow: 0px -2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.services .row{
+	margin-top: 50px;
+}
+
+.location{
+	padding: 70px 0px;
+}
+
+.boxi h2{
+	font-family: mainft;
+    font-size: 22px;
+    color: #0a465b;
+    border-bottom: 2px #FDB530 solid;
+    padding-bottom: 8px;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.boxi p{
+	font-size: 16px;
+	line-height: 1.6;
+	color: #7f969e;
+	margin-top: 10px;
+	font-family: mainft;
+}
+
+.boxi{
+	max-width: 310px;
+	margin: 0 auto;
+}
+
+.pt-40{
+	padding-top: 40px;
+}
+
+.pt-20{
+	padding-top: 20px;
+}
+
+.variety{
+	padding: 70px 0px;
+	background: #EDEff3;
+}
+
+
+
+.heading-box1{
+	background: #107698;
+	padding: 25px 20px 25px;
+	min-height: 120px;
+}
+
+.heading-box1 h2{
+	color: #fff;
+	font-size: 30px;
+	margin: 0px;
+	font-weight: 100;
+	font-family: mainlt;
+	font-variant: small-caps;
+}
+
+.para-box1{
+	padding: 20px 25px;
+	background: #fff;
+	color: #7f969e;
+	font-size: 16px;
+	box-shadow: 0px 3px 8px 0px rgb(0 0 0 / 20%);
+	margin: 0px;
+	min-height: 300px;
+}
+
+.para-box1 p{
+	font-family: mainlt;
+}
+
+.para-box1 span{
+	color: #FFA500;
+}
